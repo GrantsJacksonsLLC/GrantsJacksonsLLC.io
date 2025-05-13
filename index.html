@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grants & Jacksons LLC | Handyman Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url('https://i.imgur.com/U7TR9do.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    header {
+      background-color: rgba(0,0,0,0.7);
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #ff4d4d;
+    }
+
+    .section {
+      background-color: rgba(0,0,0,0.7);
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 900px;
+    }
+
+    h2 {
+      color: #ff4d4d;
+      margin-bottom: 1rem;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px #000;
+    }
+
+    .testimonial {
+      background: white;
+      color: black;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 6px #000;
+    }
+
+    .testimonial .author {
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .button {
+      background-color: #ff4d4d;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: rgba(0,0,0,0.8);
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Grants & Jacksons LLC</h1>
+    <p>Professional Handyman Services | 📞 248-330-1341</p>
+  </header>
+
+  <section class="section">
+    <h2>About Us</h2>
+    <p>Grants & Jacksons LLC is your trusted local handyman service. We specialize in home repairs, remodeling, and general maintenance with high-quality workmanship and affordable pricing.</p>
+  </section>
+
+  <section class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/280x180?text=Project+1" alt="Project 1">
+      <img src="https://via.placeholder.com/280x180?text=Project+2" alt="Project 2">
+      <img src="https://via.placeholder.com/280x180?text=Project+3" alt="Project 3">
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"Fantastic work on my deck. Clean, efficient, and friendly. Highly recommend!"</p>
+      <p class="author">– Emily T.</p>
+    </div>
+    <div class="testimonial">
+      <p>"Quick response and honest pricing. Will hire again for future repairs!"</p>
+      <p class="author">– John D.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Book a Service</h2>
+    <form name="booking" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="phone" placeholder="Phone Number" required />
+      <textarea name="message" placeholder="Describe the service you need..." rows="4" required></textarea>
+      <button type="submit" class="button">Book Now</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Grants & Jacksons LLC | Call: 248-330-1341
+  </footer>
+
+</body>
+</html>
